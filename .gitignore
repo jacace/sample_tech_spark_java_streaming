@@ -26,3 +26,8 @@ buildNumber.properties
 .factorypath
 .project
 .vscode/
+
+##############################
+## OS X
+##############################
+.DS_Store
