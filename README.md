@@ -43,12 +43,17 @@ If the batch processing time is consistently more than the batch interval and/or
 The progress of a Spark Streaming program can also be monitored using the StreamingListener interface,.
 
 # 6 Kafka specific:
-See param PreferConsistent for evenly distributed executors across partitions 
-It is possible to create an RDD from a defined range of offsets using: KafkaUtils.createRDD
-Kafka support SSL with secured user/pass in keystore with param: kafkaParams.put("security.protocol", "SSL")
+Extractded from: https://spark.apache.org/docs/2.1.0/streaming-kafka-0-10-integration.html
 
-Pending: how to achieve exactly once semantics (3 strategies)
-https://spark.apache.org/docs/2.1.0/streaming-kafka-0-10-integration.html
+-The param PreferConsistent allows evenly distributed executors across partitions 
+-It is possible to create an RDD from a defined range of offsets using: KafkaUtils.createRDD
+-Kafka support SSL with secured user/pass in keystore with param: kafkaParams.put("security.protocol", "SSL")
+-To achieve exactly once semantics (3 strategies):
+a) Store offsets in the checkpoint but your output operation must be idempotent (transactions are not) and
+you cannot recover from a checkpoint if your application code has changed.
+b)Commit the offset your self using  using the commitAsync AP
+c)use your own external data store and begin from the the offsets committed to the database
+
 
 # 7 Failure Analysis
 

@@ -1,0 +1,747 @@
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964732900 ms
+Starting job streaming job 1612964732900 ms.0 from job set of time 1612964732900 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964732900 ms.0 from job set of time 1612964732900 ms
+Total delay: 110.809 s for time 1612964732900 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964733000 ms
+Starting job streaming job 1612964733000 ms.0 from job set of time 1612964733000 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733000 ms.0 from job set of time 1612964733000 ms
+Total delay: 111.066 s for time 1612964733000 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964733100 ms
+Removing RDD 90 from persistence list
+Starting job streaming job 1612964733100 ms.0 from job set of time 1612964733100 ms
+Removing RDD 90
+Deleting batches: 
+remove old batch metadata: 1612964702500 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733100 ms.0 from job set of time 1612964733100 ms
+Total delay: 111.443 s for time 1612964733100 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964733200 ms
+Starting job streaming job 1612964733200 ms.0 from job set of time 1612964733200 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733200 ms.0 from job set of time 1612964733200 ms
+Total delay: 111.727 s for time 1612964733200 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964733300 ms
+Starting job streaming job 1612964733300 ms.0 from job set of time 1612964733300 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733300 ms.0 from job set of time 1612964733300 ms
+Total delay: 111.963 s for time 1612964733300 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+Added jobs for time 1612964733400 ms
+Starting job streaming job 1612964733400 ms.0 from job set of time 1612964733400 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733400 ms.0 from job set of time 1612964733400 ms
+Total delay: 112.372 s for time 1612964733400 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964733500 ms
+Removing RDD 92 from persistence list
+Starting job streaming job 1612964733500 ms.0 from job set of time 1612964733500 ms
+Deleting batches: 
+Removing RDD 92
+remove old batch metadata: 1612964702600 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733500 ms.0 from job set of time 1612964733500 ms
+Total delay: 112.630 s for time 1612964733500 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+Added jobs for time 1612964733600 ms
+Starting job streaming job 1612964733600 ms.0 from job set of time 1612964733600 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733600 ms.0 from job set of time 1612964733600 ms
+Total delay: 112.884 s for time 1612964733600 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964733700 ms
+Starting job streaming job 1612964733700 ms.0 from job set of time 1612964733700 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733700 ms.0 from job set of time 1612964733700 ms
+Total delay: 113.192 s for time 1612964733700 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+Added jobs for time 1612964733800 ms
+Starting job streaming job 1612964733800 ms.0 from job set of time 1612964733800 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964733800 ms.0 from job set of time 1612964733800 ms
+Total delay: 113.610 s for time 1612964733800 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964733900 ms
+Removing RDD 94 from persistence list
+Starting job streaming job 1612964733900 ms.0 from job set of time 1612964733900 ms
+Removing RDD 94
+Deleting batches: 
+remove old batch metadata: 1612964702700 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+Finished job streaming job 1612964733900 ms.0 from job set of time 1612964733900 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Total delay: 113.845 s for time 1612964733900 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964734000 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964734000 ms.0 from job set of time 1612964734000 ms
+Finished job streaming job 1612964734000 ms.0 from job set of time 1612964734000 ms
+Total delay: 114.043 s for time 1612964734000 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+Added jobs for time 1612964734100 ms
+Starting job streaming job 1612964734100 ms.0 from job set of time 1612964734100 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964734100 ms.0 from job set of time 1612964734100 ms
+Total delay: 114.276 s for time 1612964734100 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964734200 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964734200 ms.0 from job set of time 1612964734200 ms
+Finished job streaming job 1612964734200 ms.0 from job set of time 1612964734200 ms
+Total delay: 114.751 s for time 1612964734200 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+Added jobs for time 1612964734300 ms
+Removing RDD 96 from persistence list
+Starting job streaming job 1612964734300 ms.0 from job set of time 1612964734300 ms
+Removing RDD 96
+Deleting batches: 
+remove old batch metadata: 1612964702800 ms
+Finished job streaming job 1612964734300 ms.0 from job set of time 1612964734300 ms
+Total delay: 115.024 s for time 1612964734300 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964734400 ms
+Starting job streaming job 1612964734400 ms.0 from job set of time 1612964734400 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964734400 ms.0 from job set of time 1612964734400 ms
+Total delay: 115.291 s for time 1612964734400 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964734500 ms
+Starting job streaming job 1612964734500 ms.0 from job set of time 1612964734500 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964734500 ms.0 from job set of time 1612964734500 ms
+Total delay: 115.620 s for time 1612964734500 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964734600 ms
+Removing RDD 98 from persistence list
+Starting job streaming job 1612964734600 ms.0 from job set of time 1612964734600 ms
+Removing RDD 98
+Deleting batches: 
+remove old batch metadata: 1612964702900 ms
+Finished job streaming job 1612964734600 ms.0 from job set of time 1612964734600 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Total delay: 115.838 s for time 1612964734600 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+Added jobs for time 1612964734700 ms
+Starting job streaming job 1612964734700 ms.0 from job set of time 1612964734700 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964734700 ms.0 from job set of time 1612964734700 ms
+Total delay: 116.068 s for time 1612964734700 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964734800 ms
+Starting job streaming job 1612964734800 ms.0 from job set of time 1612964734800 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964734800 ms.0 from job set of time 1612964734800 ms
+Total delay: 116.268 s for time 1612964734800 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964734900 ms
+Starting job streaming job 1612964734900 ms.0 from job set of time 1612964734900 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964734900 ms.0 from job set of time 1612964734900 ms
+Total delay: 116.483 s for time 1612964734900 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735000 ms
+Starting job streaming job 1612964735000 ms.0 from job set of time 1612964735000 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735000 ms.0 from job set of time 1612964735000 ms
+Total delay: 116.703 s for time 1612964735000 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735100 ms
+Removing RDD 100 from persistence list
+Starting job streaming job 1612964735100 ms.0 from job set of time 1612964735100 ms
+Removing RDD 100
+Deleting batches: 
+remove old batch metadata: 1612964703000 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735100 ms.0 from job set of time 1612964735100 ms
+Total delay: 116.919 s for time 1612964735100 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964735200 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964735200 ms.0 from job set of time 1612964735200 ms
+Finished job streaming job 1612964735200 ms.0 from job set of time 1612964735200 ms
+Total delay: 117.331 s for time 1612964735200 ms (execution: 0.000 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735300 ms
+Starting job streaming job 1612964735300 ms.0 from job set of time 1612964735300 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735300 ms.0 from job set of time 1612964735300 ms
+Total delay: 117.695 s for time 1612964735300 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+Added jobs for time 1612964735400 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964735400 ms.0 from job set of time 1612964735400 ms
+Finished job streaming job 1612964735400 ms.0 from job set of time 1612964735400 ms
+Total delay: 117.891 s for time 1612964735400 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735500 ms
+Starting job streaming job 1612964735500 ms.0 from job set of time 1612964735500 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735500 ms.0 from job set of time 1612964735500 ms
+Total delay: 118.106 s for time 1612964735500 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735600 ms
+Removing RDD 102 from persistence list
+Starting job streaming job 1612964735600 ms.0 from job set of time 1612964735600 ms
+Removing RDD 102
+Deleting batches: 
+remove old batch metadata: 1612964703100 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735600 ms.0 from job set of time 1612964735600 ms
+Total delay: 118.309 s for time 1612964735600 ms (execution: 0.005 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+Added jobs for time 1612964735700 ms
+Starting job streaming job 1612964735700 ms.0 from job set of time 1612964735700 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735700 ms.0 from job set of time 1612964735700 ms
+Total delay: 118.673 s for time 1612964735700 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735800 ms
+Starting job streaming job 1612964735800 ms.0 from job set of time 1612964735800 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735800 ms.0 from job set of time 1612964735800 ms
+Total delay: 119.066 s for time 1612964735800 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964735900 ms
+Removing RDD 104 from persistence list
+Starting job streaming job 1612964735900 ms.0 from job set of time 1612964735900 ms
+Removing RDD 104
+Deleting batches: 
+remove old batch metadata: 1612964703200 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964735900 ms.0 from job set of time 1612964735900 ms
+Total delay: 119.276 s for time 1612964735900 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+Added jobs for time 1612964736000 ms
+Starting job streaming job 1612964736000 ms.0 from job set of time 1612964736000 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736000 ms.0 from job set of time 1612964736000 ms
+Total delay: 119.514 s for time 1612964736000 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964736100 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964736100 ms.0 from job set of time 1612964736100 ms
+Finished job streaming job 1612964736100 ms.0 from job set of time 1612964736100 ms
+Total delay: 119.717 s for time 1612964736100 ms (execution: 0.000 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964736200 ms
+Removing RDD 106 from persistence list
+Starting job streaming job 1612964736200 ms.0 from job set of time 1612964736200 ms
+Deleting batches: 
+remove old batch metadata: 1612964703300 ms
+Removing RDD 106
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736200 ms.0 from job set of time 1612964736200 ms
+Total delay: 119.936 s for time 1612964736200 ms (execution: 0.006 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964736300 ms
+Starting job streaming job 1612964736300 ms.0 from job set of time 1612964736300 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736300 ms.0 from job set of time 1612964736300 ms
+Total delay: 120.345 s for time 1612964736300 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964736400 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+Starting job streaming job 1612964736400 ms.0 from job set of time 1612964736400 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736400 ms.0 from job set of time 1612964736400 ms
+Total delay: 120.639 s for time 1612964736400 ms (execution: 0.002 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+Added jobs for time 1612964736500 ms
+Starting job streaming job 1612964736500 ms.0 from job set of time 1612964736500 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736500 ms.0 from job set of time 1612964736500 ms
+Total delay: 120.948 s for time 1612964736500 ms (execution: 0.004 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+Added jobs for time 1612964736600 ms
+Removing RDD 108 from persistence list
+Starting job streaming job 1612964736600 ms.0 from job set of time 1612964736600 ms
+Removing RDD 108
+Deleting batches: 
+remove old batch metadata: 1612964703400 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736600 ms.0 from job set of time 1612964736600 ms
+Total delay: 121.263 s for time 1612964736600 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+Added jobs for time 1612964736700 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964736700 ms.0 from job set of time 1612964736700 ms
+Finished job streaming job 1612964736700 ms.0 from job set of time 1612964736700 ms
+Total delay: 121.563 s for time 1612964736700 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964736800 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+Starting job streaming job 1612964736800 ms.0 from job set of time 1612964736800 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736800 ms.0 from job set of time 1612964736800 ms
+Total delay: 121.772 s for time 1612964736800 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964736900 ms
+Starting job streaming job 1612964736900 ms.0 from job set of time 1612964736900 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Finished job streaming job 1612964736900 ms.0 from job set of time 1612964736900 ms
+Total delay: 121.979 s for time 1612964736900 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+Added jobs for time 1612964737000 ms
+Removing RDD 110 from persistence list
+Starting job streaming job 1612964737000 ms.0 from job set of time 1612964737000 ms
+Deleting batches: 
+remove old batch metadata: 1612964703500 ms
+Removing RDD 110
+Finished job streaming job 1612964737000 ms.0 from job set of time 1612964737000 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Total delay: 122.244 s for time 1612964737000 ms (execution: 0.003 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+Added jobs for time 1612964737100 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964737100 ms.0 from job set of time 1612964737100 ms
+Finished job streaming job 1612964737100 ms.0 from job set of time 1612964737100 ms
+Total delay: 122.470 s for time 1612964737100 ms (execution: 0.001 s)
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-0 to position FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b13-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 13 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-2 to position FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b5-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 5 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-5 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b14-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 14 rack: 2)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-3 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b1-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 1 rack: 1)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-4 to position FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b9-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 9 rack: 0)], epoch=0}}.
+[Consumer clientId=consumer-group1-1, groupId=group1] Resetting offset for partition in_topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[b12-pkc-4yyd6.us-east1.gcp.confluent.cloud:9092 (id: 12 rack: 0)], epoch=0}}.
+Added jobs for time 1612964737200 ms
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-0
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-4
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-1
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-5
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-2
+[Consumer clientId=consumer-group1-1, groupId=group1] Seeking to LATEST offset of partition in_topic-3
+Starting job streaming job 1612964737200 ms.0 from job set of time 1612964737200 ms
+Finished job streaming job 1612964737200 ms.0 from job set of time 1612964737200 ms
+Total delay: 122.698 s for time 1612964737200 ms (execution: 0.001 s)
