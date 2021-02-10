@@ -54,6 +54,7 @@ public final class App {
         stream = KafkaUtils.createDirectStream(jsc, LocationStrategies.PreferConsistent(),
                 ConsumerStrategies.<String, String>Subscribe(topics, kafkaParams));
 
+        //TODO: client does not connect to server due to mismatch in Libs
         stream.mapToPair(record -> new Tuple2<>(record.key(), record.value()));
 
         /*
