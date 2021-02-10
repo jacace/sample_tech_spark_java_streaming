@@ -39,31 +39,40 @@ public final class App {
         kafkaParams.put(SaslConfigs.SASL_MECHANISM, Config.SaslMechanism);
         kafkaParams.put(SaslConfigs.SASL_JAAS_CONFIG, Config.SaslJaasConfig);
         kafkaParams.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, StringDeserializer.class);
-        kafkaParams.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, StringDeserializer.class); //Serdes.String().getClass()
+        kafkaParams.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, StringDeserializer.class); // Serdes.String().getClass()
         // config.put(StreamsConfig.AUTO_OFFSET_RESET_CONFIG, "latest"); //earliest
-        //kafkaParams.put("enable.auto.commit", false);
+        // kafkaParams.put("enable.auto.commit", false);
 
         String master = Config.SparkMaster;
         Duration microBatchDuration = new Duration(Config.MicroBatchDuration);
 
         Collection<String> topics = Arrays.asList(Config.TopicIn);
         SparkConf conf = new SparkConf().setAppName(Config.ConsumerId).setMaster(master);
-        JavaStreamingContext jsc = new JavaStreamingContext(conf, microBatchDuration);
 
+        JavaStreamingContext jsc = new JavaStreamingContext(conf, microBatchDuration);
         JavaInputDStream<ConsumerRecord<String, String>> stream = null;
         stream = KafkaUtils.createDirectStream(jsc, LocationStrategies.PreferConsistent(),
                 ConsumerStrategies.<String, String>Subscribe(topics, kafkaParams));
 
-        //TODO: client does not connect to server due to mismatch in Libs
+        // Map operations run in the executors
         stream.mapToPair(record -> new Tuple2<>(record.key(), record.value()));
 
+        try {
+            // Start the computation
+            jsc.start(); //TODO: No output operations registered, so nothing to execute
+            jsc.awaitTermination();
+        } catch (Exception ex) {
+            System.out.println("An Error happened:" + ex.getMessage());
+        }
+
+        System.out.println("Adone deal!");
+
         /*
-        stream.mapToPair(new PairFunction<ConsumerRecord<String, String>, String, String>() {
-            @Override
-            public Tuple2<String, String> call(ConsumerRecord<String, String> record) {
-                return new Tuple2<>(record.key(), record.value());
-            }
-        });        
-        */
+         * stream.mapToPair(new PairFunction<ConsumerRecord<String, String>, String,
+         * String>() {
+         * 
+         * @Override public Tuple2<String, String> call(ConsumerRecord<String, String>
+         * record) { return new Tuple2<>(record.key(), record.value()); } });
+         */
     }
 }
