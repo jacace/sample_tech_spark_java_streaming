@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.codehaus.jackson.map.ObjectMapper;
 
+//Sampel POJO from deeque project
 public class Item {
 
     public String id;
@@ -75,9 +76,7 @@ public class Item {
             list.add(new ConsumerRecord<>(topic, partition, offset, key, jacksonParser.writeValueAsString(new Item("4", "Thingy D", "checkout https://thingd.ca", "low", 10))));
             list.add(new ConsumerRecord<>(topic, partition, offset, key, jacksonParser.writeValueAsString(new Item("5", "Thingy E", null, "high", 12))));
         } catch (Exception e) {
-
             e.printStackTrace();
-
         }
 
         return list;
