@@ -95,13 +95,6 @@ public final class App {
             }
         }
 
-        /*
-         * stream.mapToPair(new PairFunction<ConsumerRecord<String, String>, String,
-         * String>() {
-         * 
-         * @Override public Tuple2<String, String> call(ConsumerRecord<String, String>
-         * record) { return new Tuple2<>(record.key(), record.value()); } });
-         */
     }
 
     private static void joinDemo(JavaDStream<ConsumerRecord<String, String>> productStream,
