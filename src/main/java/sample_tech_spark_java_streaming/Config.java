@@ -2,40 +2,50 @@ package sample_tech_spark_java_streaming;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
+import org.apache.kafka.common.config.SaslConfigs;
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.StreamsConfig;
 
 public class Config {
-
-    public static String ConsumerId;
-    public static String BootstrapServers;
-    public static String SecurityProtocol;
-    public static String SaslMechanism;
-    public static String SaslJaasConfig;
+    
+    public static String AppName;
     public static String TopicIn;
-    public static String GroupId;
     public static int MicroBatchDuration;
     public static String SparkMaster;
     // public static String SslEndpointIdentificationAlgorithm;
 
-    public void load() {
+    public Map<String, Object> load() {
+        Map<String, Object> kafkaParams = new HashMap<>();
+
         try {
             String file = "application.properties";
             InputStream fins = getClass().getClassLoader().getResourceAsStream(file);
             Properties appSettings = new Properties();
             if (fins != null)
-                appSettings.load(fins);
+                appSettings.load(fins);                   
+                        
+            //kafka config
+            kafkaParams.put(StreamsConfig.APPLICATION_ID_CONFIG, (String) appSettings.get("consumerid"));
+            kafkaParams.put("groupIdPreffix", (String) appSettings.get("groupidpreffix")); //groupid not used
+            kafkaParams.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, (String) appSettings.get("bootstrap.servers"));
+            kafkaParams.put(StreamsConfig.SECURITY_PROTOCOL_CONFIG, (String) appSettings.get("security.protocol"));
+            kafkaParams.put(SaslConfigs.SASL_MECHANISM, (String) appSettings.get("sasl.mechanism"));
+            kafkaParams.put(SaslConfigs.SASL_JAAS_CONFIG,  (String) appSettings.get("sasl.jaas.config"));
+            kafkaParams.put("enable.auto.commit", Boolean.parseBoolean((String) appSettings.get("enable.auto.commit")));             
+            kafkaParams.put("key.deserializer", Serdes.String().getClass().getName());
+            kafkaParams.put("value.deserializer", Serdes.String().getClass().getName());            
+            // enable.auto.commit: false to commit offsets to Kafka yourself after you know your output has been stored using the commitAsync AP
+            // kafkaParams.put(StreamsConfig.AUTO_OFFSET_RESET_CONFIG, "latest"); //earliest
 
-            // This is where you add your config variables:
-            // ConsumerId = Boolean.parseBoolean((String) appSettings.get("DEBUG"));
-            ConsumerId = (String) appSettings.get("consumerid");
-            BootstrapServers = (String) appSettings.get("bootstrap.servers");
-            SecurityProtocol = (String) appSettings.get("security.protocol");
-            SaslMechanism = (String) appSettings.get("sasl.mechanism");
-            SaslJaasConfig = (String) appSettings.get("sasl.jaas.config");
+            //general config
+            AppName = (String) appSettings.get("consumerid");
             TopicIn = (String) appSettings.get("topicin");
-            GroupId = (String) appSettings.get("groupid");
             MicroBatchDuration = Integer.parseInt((String) appSettings.get("microbatchduration"));
-            SparkMaster = (String) appSettings.get("sparkmaster");            
+            SparkMaster = (String) appSettings.get("sparkmaster");     
+
             fins.close();
 
         } catch (IOException e) {
@@ -43,5 +53,8 @@ public class Config {
             System.out.println(e.getMessage());
         }
 
+        return kafkaParams;
+
     }
+
 }
