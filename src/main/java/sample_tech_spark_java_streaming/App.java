@@ -1,9 +1,7 @@
 package sample_tech_spark_java_streaming;
 
 import java.util.*;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.streaming.Duration;
