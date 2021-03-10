@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import org.apache.kafka.common.config.SaslConfigs;
-import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.streams.StreamsConfig;
 
 public class Config {
@@ -35,8 +35,8 @@ public class Config {
             kafkaParams.put(SaslConfigs.SASL_MECHANISM, (String) appSettings.get("sasl.mechanism"));
             kafkaParams.put(SaslConfigs.SASL_JAAS_CONFIG,  (String) appSettings.get("sasl.jaas.config"));
             kafkaParams.put("enable.auto.commit", Boolean.parseBoolean((String) appSettings.get("enable.auto.commit")));             
-            kafkaParams.put("key.deserializer", Serdes.String().getClass().getName());
-            kafkaParams.put("value.deserializer", Serdes.String().getClass().getName());            
+            kafkaParams.put("key.deserializer", StringDeserializer.class);
+            kafkaParams.put("value.deserializer", StringDeserializer.class);            
             // enable.auto.commit: false to commit offsets to Kafka yourself after you know your output has been stored using the commitAsync AP
             // kafkaParams.put(StreamsConfig.AUTO_OFFSET_RESET_CONFIG, "latest"); //earliest
 

@@ -49,19 +49,18 @@ public final class App {
             productslist.add(productsRDD);
             productStream = jsc.queueStream(productslist);
 
-            //Only neeed for Join demo
+            // Only neeed for Join demo
             JavaRDD<ConsumerRecord<String, String>> salesRDD = sparkContext
                     .parallelize(Item.buildSalesRecordList(Config.TopicIn));
             LinkedList<JavaRDD<ConsumerRecord<String, String>>> saleslist = new LinkedList<>();
             saleslist.add(salesRDD);
             salesStream = jsc.queueStream(saleslist);
         } else {
-            JavaInputDStream<ConsumerRecord<String, String>> stream3 = KafkaUtils.createDirectStream(jsc,
-                    LocationStrategies.PreferConsistent(),
+            productStream = KafkaUtils.createDirectStream(jsc, LocationStrategies.PreferConsistent(),
                     ConsumerStrategies.<String, String>Subscribe(topics, kafkaParams));
         }
 
-        joinDemo(productStream, salesStream);
+        //joinDemo(productStream, salesStream);
         // To achieve exactly once semantics
         productStream.foreachRDD(new VoidFunction<JavaRDD<ConsumerRecord<String, String>>>() {
             private static final long serialVersionUID = 1L;
@@ -74,7 +73,7 @@ public final class App {
 
                 rdd.foreach(data -> {
                     System.out.println("Key: " + data.key() + ". Value: " + data.value());
-                });                
+                });
 
                 // ((CanCommitOffsets) stream.inputDStream()).commitAsync(offsetRanges);
             }
@@ -96,7 +95,7 @@ public final class App {
     }
 
     private static void joinDemo(JavaDStream<ConsumerRecord<String, String>> productStream,
-                                 JavaDStream<ConsumerRecord<String, String>> salesStream) {
+            JavaDStream<ConsumerRecord<String, String>> salesStream) {
         ObjectMapper jacksonParser = new ObjectMapper();
         JavaPairDStream<Object, Object> s1 = productStream.mapToPair(record -> new Tuple2<Object, Object>(record.key(),
                 jacksonParser.readValue(record.value(), Item.class)));
@@ -105,14 +104,15 @@ public final class App {
         JavaPairDStream<Object, Tuple2<Object, Object>> s3 = s1.join(s2);
 
         s3.foreachRDD(new VoidFunction<JavaPairRDD<Object, Tuple2<Object, Object>>>() {
-            private static final long serialVersionUID = 1L;            
+            private static final long serialVersionUID = 1L;
 
             @Override
             public void call(JavaPairRDD<Object, Tuple2<Object, Object>> rdd) throws Exception {
                 System.out.println("Num of Records in RDD: " + Long.toString(rdd.count()));
                 rdd.foreach(data -> {
-                    System.out.println("Key: " + data._1().toString() + ". Obj in Value 1: " + ((Item) data._2()._1()).name
-                            + ". Obj in Value 2: " + Integer.toString(((DailySales) data._2()._2()).soldUnits));
+                    System.out.println(
+                            "Key: " + data._1().toString() + ". Obj in Value 1: " + ((Item) data._2()._1()).name
+                                    + ". Obj in Value 2: " + Integer.toString(((DailySales) data._2()._2()).soldUnits));
                 });
             }
         });
